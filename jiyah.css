@@ -1,0 +1,19 @@
+.purple{
+	color:purple;
+	border-width:5px;
+	border-style:solid;
+	border-color:blue;
+
+}
+.green{
+	color:green;
+}
+.green:hover
+{
+	border-width:5px;
+	border-style:dashed;
+	border-color:#F2D76C;
+}
+#drawing{
+	width:300px; height:300px; border:1px solid blue;
+}

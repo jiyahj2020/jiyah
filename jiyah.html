@@ -26,16 +26,20 @@ $("#girlswag").on("hover",function  girlsrule(){
 	alert("girl swag")
 })
 </script>
-<canvas id="drawing"></canvas>
+<canvas width=300 height=300 
+id="drawing"></canvas>
 <script>
 var canvas=document.getElementById("drawing");
 var ctx=canvas.getContext("2d");
-
+function draw_a_circle(x,y){
 //draw a circle
 ctx.beginPath();
-ctx.arc(75, 75, 10, 0, Math.PI*2, true);
+ctx.arc(x, y, 10, 0, Math.PI*2, true);
 ctx.closePath();
 ctx.fill();
+}
+draw_a_circle(100,100)
+
 </script>
 </body>
 <footer>

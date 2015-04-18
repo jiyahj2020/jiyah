@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE> 
 <html>
 <head>
 	<link href="jiyah.css" rel="stylesheet"/>
@@ -39,6 +39,14 @@ ctx.closePath();
 ctx.fill();
 }
 draw_a_circle(100,100)
+draw_a_circle(150,100)
+
+var x=100
+var y=150
+setInterval(function(){
+draw_a_circle (x,y)
+y=y+1
+})
 
 </script>
 </body>
